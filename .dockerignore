@@ -1,0 +1,5 @@
+database-seed.sql/
+node_modules/
+.env
+dist/
+.parcel-cache/

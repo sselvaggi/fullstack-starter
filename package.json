@@ -1,0 +1,24 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "watch": "parcel watch ./ui/index.html",
+    "build": "parcel build ./ui/index.html",
+    "dev": "nodemon --inspect server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "concurrently": "^7.1.0",
+    "nodemon": "^2.0.15",
+    "parcel": "^2.5.0"
+  },
+  "nodemonConfig": {
+    "ignore": ["dist/*", "ui/*"]
+  }
+}
