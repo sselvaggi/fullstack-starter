@@ -2,10 +2,11 @@
 
 This starter 
 - [x] Docker
+- [x] Prettier config
+- [x] NodeJS hot reload and debugger
 - [x] Frontend build
 - [ ] ExpressJS API
 - [ ] SocketIO
-- [x] Prettier config
 - [ ] PostgreSQL migration scripts
 - [ ] Cypress e2e tests
 

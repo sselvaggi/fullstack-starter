@@ -4,14 +4,15 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "watch": "parcel watch ./ui/index.html",
-    "build": "parcel build ./ui/index.html",
-    "dev": "nodemon --inspect server.js"
+    "watch": "parcel watch ./src/ui/index.html",
+    "build": "parcel build ./src/ui/index.html",
+    "dev": "nodemon --inspect=0.0.0.0 ./src/server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "pg": "^8.7.3"
   },
   "devDependencies": {
     "concurrently": "^7.1.0",
@@ -19,6 +20,9 @@
     "parcel": "^2.5.0"
   },
   "nodemonConfig": {
-    "ignore": ["dist/*", "ui/*"]
+    "ignore": [
+      "dist/*",
+      "ui/*"
+    ]
   }
 }
